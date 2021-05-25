@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <meta charset="utf-8">
   <script src="https://kit.fontawesome.com/e5f8f463ae.js" crossorigin="anonymous"></script>
@@ -30,7 +30,14 @@
             </li>
           </div>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <div class="drop-down">
+              <button class="drop-button" href="#">Portfolio <i class="fas fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Me</a>
@@ -40,12 +47,12 @@
           </li>
         </ul>
         <div class="social-icons">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-pinterest-square"></i>
-          <i class="fab fa-google-plus-g"></i>
-          <i class="fas fa-search"></i>
+          <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+          <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+          <span id="click-awesome"><i class="fab fa-instagram"></i></span>
+          <span id="click-awesome"><i class="fab fa-pinterest-square"></i></span>
+          <span id="click-awesome"><i class="fab fa-google-plus-gh"></i></span>
+          <span id="click-awesome"><i class="fas fa-search"></i></span>
         </div>
       </div>
     </nav>
@@ -68,11 +75,11 @@
           <div class="lower">
             <span class="date">By Esteban on September 26, 2012</span>
             <span class="box-icons">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-pinterest-square"></i>
-              <i class="fab fa-google-plus-g"></i>
-              <i class="fab fa-instagram"></i>
+              <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+              <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+              <span id="click-awesome"><i class="fab fa-pinterest-square"></i></span>
+              <span id="click-awesome"><i class="fab fa-google-plus-g"></i></span>
+              <span id="click-awesome"><i class="fab fa-instagram"></i></span>
             </span>
           </div>
         </section>
@@ -93,11 +100,11 @@
           <div class="lower">
             <span class="date">By Esteban on October 13, 2016</span>
             <span class="box-icons">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-pinterest-square"></i>
-              <i class="fab fa-google-plus-g"></i>
-              <i class="fab fa-instagram"></i>
+              <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+              <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+              <span id="click-awesome"><i class="fab fa-pinterest-square"></i></span>
+              <span id="click-awesome"><i class="fab fa-google-plus-g"></i></span>
+              <span id="click-awesome"><i class="fab fa-instagram"></i></span>
             </span>
           </div>
         </section>
@@ -118,11 +125,11 @@
           <div class="lower">
             <span class="date">By Esteban on February 10, 2018</span>
             <span class="box-icons">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-pinterest-square"></i>
-              <i class="fab fa-google-plus-g"></i>
-              <i class="fab fa-instagram"></i>
+              <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+              <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+              <span id="click-awesome"><i class="fab fa-pinterest-square"></i></span>
+              <span id="click-awesome"><i class="fab fa-google-plus-g"></i></span>
+              <span id="click-awesome"><i class="fab fa-instagram"></i></span>
             </span>
           </div>
         </section>
@@ -143,11 +150,11 @@
           <div class="lower">
             <span class="date">By Esteban on January 1, 2020</span>
             <span class="box-icons">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-pinterest-square"></i>
-              <i class="fab fa-google-plus-g"></i>
-              <i class="fab fa-instagram"></i>
+              <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+              <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+              <span id="click-awesome"><i class="fab fa-pinterest-square"></i></span>
+              <span id="click-awesome"><i class="fab fa-google-plus-g"></i></span>
+              <span id="click-awesome"><i class="fab fa-instagram"></i></span>
             </span>
           </div>
         </section>
@@ -170,11 +177,11 @@
           <div class="lower">
             <span class="date">By Esteban on March 3, 2021</span>
             <span class="box-icons">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-pinterest-square"></i>
-              <i class="fab fa-google-plus-g"></i>
-              <i class="fab fa-instagram"></i>
+              <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+              <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+              <span id="click-awesome"><i class="fab fa-pinterest-square"></i></span>
+              <span id="click-awesome"><i class="fab fa-google-plus-g"></i></span>
+              <span id="click-awesome"><i class="fab fa-instagram"></i></span>
             </span>
           </div>
         </section>
@@ -191,9 +198,15 @@
               <img class="profile-img" src="./images/IMG_1626.jpg" alt="">
             </div>
           </div>
-          <span class="name"> Esteban Carter</span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <span class="lower-icons"></span>
+          <span class="name">ESTEBAN CARTER</span>
+          <p class="profile-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <span class="lower-icons">
+            <span id="click-awesome"><i class="fab fa-facebook-f"></i></span>
+            <span id="click-awesome"><i class="fab fa-twitter"></i></span>
+            <span id="click-awesome"><i class="fab fa-google-plus-g"></i></span>
+            <span id="click-awesome"><i class="fab fa-linkedin-in"></i></span>
+            <span id="click-awesome"><i class="fab fa-instagram"></i></span>
+          </span>
         </section>
       </div>
 
@@ -249,7 +262,7 @@
 
       <div class="column-right">
         <section>
-          <div class=" class="right-article3"">
+          <div class=" class=" right-article3"">
             <span class="right-title3">Instagram feed</span>
             <img class="wrap-img" src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/f1/04/ba/photo1jpg.jpg" alt="">
             <img class="wrap-img" src="https://cdn.britannica.com/02/119602-050-09EB2FC4/El-Capitan-Yosemite-National-Park-California.jpg" alt="">
@@ -276,8 +289,12 @@
     <img class="foot-img" src="https://www.lonestartravelguide.com/wp-content/uploads/2020/09/Texas_SouthPadreIsland-78.jpg" alt="">
     <img class="foot-img" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/great-smoky-mountains-national-park-scenic-landscape-gatlinburg-tn-dave-allen.jpg" alt="">
   </div>
+
+  <footer>
+    <p>© 2021 Carolina Code School Students Build Cool Stuff</p>
+  </footer>
+
 </body>
-<footer>
-  <p>© 2021 Carolina Code School Students Build Cool Stuff</p>
-</footer>
+
+
 </html>
